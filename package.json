@@ -6,7 +6,7 @@
 	"scripts": {
 		"lint:fix": "eslint src/ --fix --ext .ts --cache",
 		"lint:err": " eslint src/ --ext .ts --cache",
-		"build": "tsc",
+		"build": "tsc -b -w src",
 		"start": "yarn node --enable-source-maps ./dist/main.js"
 	},
 	"dependencies": {
